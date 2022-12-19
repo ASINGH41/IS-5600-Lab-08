@@ -1,0 +1,49 @@
+.dreamJob{
+    padding: 30px 30px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url('work.jpg');
+    background-size: cover;
+    margin: 0px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.dreamJobContent p{
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 130%;
+    /* color: white; */
+}
+.dreamJobContent h1{
+    margin: 60px 0px 60px 0px;
+    text-align: left;
+    color: white;
+}
+.dreamCard{
+    padding: 15px 70px 0px 70px;
+    border-radius: 7px 7px 7px 7px;
+    margin-right: 25px;
+    background-color: #54B435;
+    transition: all 0.3s;
+    color: white;
+
+}
+
+.dreamCard:hover{
+    background-color: white;
+    color: black;
+}
+
+.dreamCard img{
+    max-width: 50px;
+}
+.dreamCard p{
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dreamCards{
+    display: flex;
+    max-height: max-content;
+}

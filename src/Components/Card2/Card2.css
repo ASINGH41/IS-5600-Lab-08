@@ -1,0 +1,20 @@
+.card2{
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    width: 250px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.card2 p{
+    margin: 0;
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(241, 241, 241);
+}
+
+.card2Content{
+    padding: 15px;
+    text-align: left;
+}

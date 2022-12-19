@@ -1,0 +1,48 @@
+.footer{
+    padding: 100px 0px 0px 0px;
+    background-color: #54B435;
+    padding-left: 15px;
+    margin: 20px 15px 0px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.footerTitle h1{
+    text-align: left;
+    color: white;
+
+}
+hr{
+   border: 3px solid rgb(238, 238, 238);
+}
+
+.footerLinks{
+    display: grid;
+    padding: 30px 0px 60px 0px;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.footerLinks div{
+    max-width: fit-content;
+}
+
+.footerLinks div p{
+    color: white;
+    font-size: 130%;
+}
+
+
+.footerFollow{
+    padding: 30px 0px 60px 0px;
+    display: flex;
+    align-items: baseline;
+}
+.footerFollow h2{
+    text-align: left;
+    color: white;
+
+}
+
+.footerFollow img{
+    max-width: 30px;
+    margin-left: 70px;
+}

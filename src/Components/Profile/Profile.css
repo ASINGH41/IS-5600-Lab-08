@@ -1,0 +1,31 @@
+.profile{
+    margin: 50px 100px;
+}
+
+.profileIntro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    background-color:#54B435;
+    margin-bottom: 80px;
+}
+
+.profileIntro img{
+    max-width: 270px;
+}
+
+.profileIntro h1{
+    margin-top: 5px;
+    font-size: 350%;
+    color: white;
+}
+
+.profileApplied div, .profilePosted div{
+    min-height: 100px;
+}
+
+.profileApplied h1, .profilePosted h1{
+    color:#54B435;
+    text-align: left;
+}
