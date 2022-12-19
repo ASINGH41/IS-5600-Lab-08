@@ -92,11 +92,19 @@ The server or api is built with Flask Framework which is a python programming la
 
  
     1. open command prompt or terminal
-    2. run <ins>pip install virtualenv</ins>
+    
+    2. run (*pip install virtualenv*)
+    
     3. Navigate to the /server folder
-    4. Run <ins>virtualenv venv</ins>. This will create virtualenv folder in the server folder
-    5. To activate the virtualenv run <ins>venv/bin/activate</ins> (for linux distributions) <ins>venv\Scripts\activate<ins> (for windows os)
-    6. To install the project requirements run <ins>pip install -r requirements.txt</ins> in the virtualenv
-    7. To start the server run <ins>set FLASK_APP=app<ins> (windows os) <ins>export FLASK_APP=app</ins> (linux os)
-    8. Start the server by running <ins>flask run</ins>
+    
+    4. Run (*virtualenv venv*) This will create virtualenv folder in the server folder
+    
+    5. To activate the virtualenv run (*venv/bin/activate*) (for linux distributions) (*venv\Scripts\activate*) (for windows os)
+    
+    6. To install the project requirements run (*pip install -r requirements.txt*) in the virtualenv
+    
+    7. To start the server run (*set FLASK_APP=app*) (windows os) (*export FLASK_APP=app*) (linux os)
+    
+    8. Start the server by running (*flask run*)
+    
 The server will start running on localhost port 5000, which is default. 
