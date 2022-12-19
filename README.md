@@ -88,15 +88,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### SERVER CONFIGURATION
 The server or api is built with Flask Framework which is a python programming language framework for developing web api's.
 
-##To start the server the following steps are required.
+## Getting started with flask.
 
  
-1. open command prompt or terminal
-2. run <code>pip install virtualenv</code>
-3. Navigate to the /server folder
-4. Run <code>virtualenv venv</code>. This will create virtualenv folder inser the server folder
-5. To activate the virtualenv run <code>venv/bin/activate</code> (for linux distributions) <code>venv\Scripts\activate<code> (for windows os)
-6. To install the project reuirements run <code>pip install -r requirements.txt</code> in the virtualenv
-7. To start the server run <code>set FLASK_APP=app<code> (windows os) <code>export FLASK_APP=app</code> (linux os)
-8. Start the server by running <code>flask run</code>
+    1. open command prompt or terminal
+    2. run <code>pip install virtualenv</code>
+    3. Navigate to the /server folder
+    4. Run <code>virtualenv venv</code>. This will create virtualenv folder inser the server folder
+    5. To activate the virtualenv run <code>venv/bin/activate</code> (for linux distributions) <code>venv\Scripts\activate<code> (for windows os)
+    6. To install the project reuirements run <code>pip install -r requirements.txt</code> in the virtualenv
+    7. To start the server run <code>set FLASK_APP=app<code> (windows os) <code>export FLASK_APP=app</code> (linux os)
+    8. Start the server by running <code>flask run</code>
 The server will start running on localhost port 5000, which is default. 
